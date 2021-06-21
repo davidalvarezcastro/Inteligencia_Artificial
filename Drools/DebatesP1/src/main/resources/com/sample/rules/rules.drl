@@ -1,0 +1,72 @@
+//created on: Oct 7, 2020 by davidac0291@gmail.com
+package rules
+
+// importamos las clases necesarias para especificar nuestras reglas
+import java.util.ArrayList
+import com.sample.Mediator
+import com.sample.Debater
+import com.sample.Debate
+
+
+// REGLAS OBLIGATORIAS P1 IA
+rule "Create mediator"
+    when
+        not Mediator();
+    then
+        System.out.println("Crear mediador de debate");
+        insert(new Mediator());
+end
+
+
+rule "Create debate"
+    when
+        not Debate();
+        
+        $d0 : Debater($minAge0 : age && player == 0, $name0 : name);
+        not Debater(age < $minAge0 && player == 0);
+        
+        $d1 : Debater($minAge1 : age && player == 1, $name1 : name);
+        not Debater(age < $minAge1 && player == 1);
+    then
+        System.out.println("Crear debate entre " + $name0 + " " + $name1);
+        insert(new Debate($d0, $d1));
+end
+
+
+rule "Create fight"
+    when
+        $mediator : Mediator($turn : turn);
+		Debate($debaters : debaters);
+
+		$attacker : Debater(player == $turn, $damageA : attack) from $debaters
+		$defender : Debater(player != $turn, $credibilityD : credibility) from $debaters
+    then
+        System.out.println("Argumenta el equipo " + $turn);
+        System.out.println("Ataca " + $attacker + " a " + $defender);
+        modify($defender) { setCredibility($credibilityD - $damageA) };
+        modify($mediator) { changeTurn() };
+end
+
+
+rule "End fight" salience 1
+    when
+        Mediator();
+		$debate : Debate($debaters : debaters);
+		$loser : Debater(credibility <= 0) from $debaters
+    then
+		System.out.println("Ha salido " + $loser);
+        retract($loser);
+        retract($debate);
+end
+
+
+rule "End debates"
+    when
+        not Debate();
+
+		not Debater(player == 0, credibility == 0);
+		not Debater(player == 1, credibility == 0);
+    then
+        System.out.println("Fin del debate");
+end
+

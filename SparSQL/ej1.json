@@ -1,0 +1,537 @@
+{
+  "head": { "link": [], "vars": ["company"] },
+  "results": {
+    "distinct": false,
+    "ordered": true,
+    "bindings": [
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/NoDak_Films"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Legendary_Entertainment"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Pacific_Data_Images"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Mutant_Enemy_Productions"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Mandate_Pictures"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Weston_Woods_Studios"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Lakeshore_Entertainment"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Hollywood_Pictures"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Amblin_Entertainment"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Om_Films"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Reel_FX_Creative_Studios"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Broken_Wall_Films"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/New_Renaissance_Pictures"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/LD_Entertainment"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Bellwether_Pictures"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Marvel_Studios"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Focus_Features"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Relativity_Media"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Walt_Disney_Pictures"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Digital_Domain"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Blue_Sky_Studios"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Spyglass_Entertainment"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Darko_Entertainment"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Walden_Media"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/WingNut_Films"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Fake_Empire_Productions"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Toy_Gun_Films"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Grindhouse_Releasing"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/The_Kennedy/Marshall_Company"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/DOOM_Inc"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Blinding_Edge_Pictures"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Comedy_Central_Films"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/SCS_Films"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Good_Universe"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Janimation"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Orion_Classics"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/First_National_Pictures"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Bray_Productions"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Funny_or_Die"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/CubeCity_Entertainment"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Citizen_Film"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Apatow_Productions"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Action_International_Pictures"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Plymouth_Rock_Studios"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Columbia_Pictures"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Imagine_Entertainment"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Danjaq"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Happy_Madison_Productions"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Cinema_Center_Films"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Atomic_Monster_Productions"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/FiveSprockets"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Destination_Films"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Plan_B_Entertainment"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Fidelio_Films"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Kino_International_(company)"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Worker_Studio"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Lucasfilm"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Associated_Television_International"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Threshold_Entertainment"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Trigger_Street_Productions"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Icon_Productions"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/20th_Century_Fox_Animation"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Indie_Rights"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Mad_Hatter_Entertainment"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Stage_6_Films"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Bridgegate_Pictures"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/TNA_Home_Video"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Blue_Omega"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Mandt_Bros._Productions"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Lynda_Obst_Productions"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Digital_Media_Factory"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Apprehensive_Films"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/CineTel_Films"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Radical_Axis_(studio)"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Maxim_Media_Marketing,_Inc."
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Rough_Draft_Studios"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/X-Ray_Kid_Studios"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Nestor_Film_Company"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Williams_Street"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Troma_Entertainment"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/WWE_Studios"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Brain_Damage_Films"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/606_Films"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/ImageMovers"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Gumroad"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Miramax"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Bad_Robot_Productions"
+        }
+      },
+      {
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Skydance_Media"
+        }
+      }
+    ]
+  }
+}

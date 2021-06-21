@@ -1,0 +1,49 @@
+{
+  "head": { "link": [], "vars": ["founder", "company"] },
+  "results": {
+    "distinct": false,
+    "ordered": true,
+    "bindings": [
+      {
+        "founder": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Ed_Yost"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Raven_Industries"
+        }
+      },
+      {
+        "founder": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Haviland_H._Platt"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Platt-LePage_Aircraft_Company"
+        }
+      },
+      {
+        "founder": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Wynn_Laurence_LePage"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Platt-LePage_Aircraft_Company"
+        }
+      },
+      {
+        "founder": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Jose_Mariano_L\u00F3pez-Urdiales"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Zero2infinity"
+        }
+      }
+    ]
+  }
+}

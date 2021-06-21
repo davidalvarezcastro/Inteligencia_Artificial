@@ -1,0 +1,780 @@
+{
+  "head": {
+    "link": [],
+    "vars": ["boss", "birthPlace", "employees", "populationTotal", "company"]
+  },
+  "results": {
+    "distinct": false,
+    "ordered": true,
+    "bindings": [
+      {
+        "boss": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Jeffrey_R._Immelt"
+        },
+        "birthPlace": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Cincinnati"
+        },
+        "employees": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "305000"
+        },
+        "populationTotal": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "296943"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/General_Electric"
+        }
+      },
+      {
+        "boss": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Eric_Schmidt"
+        },
+        "birthPlace": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Falls_Church,_Virginia"
+        },
+        "employees": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "66575"
+        },
+        "populationTotal": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "13508"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Alphabet_Inc."
+        }
+      },
+      {
+        "boss": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Larry_Page"
+        },
+        "birthPlace": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/East_Lansing,_Michigan"
+        },
+        "employees": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "66575"
+        },
+        "populationTotal": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "48579"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Alphabet_Inc."
+        }
+      },
+      {
+        "boss": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Kenneth_Chenault"
+        },
+        "birthPlace": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Mineola,_New_York"
+        },
+        "employees": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "54000"
+        },
+        "populationTotal": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "18799"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/American_Express"
+        }
+      },
+      {
+        "boss": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Carl_Icahn"
+        },
+        "birthPlace": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Far_Rockaway,_Queens"
+        },
+        "employees": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "90807"
+        },
+        "populationTotal": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "60035"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Icahn_Enterprises"
+        }
+      },
+      {
+        "boss": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Stephen_V._Harkness"
+        },
+        "birthPlace": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Fayette,_New_York"
+        },
+        "employees": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "60000"
+        },
+        "populationTotal": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "3929"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Standard_Oil"
+        }
+      },
+      {
+        "boss": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/John_D._Rockefeller"
+        },
+        "birthPlace": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Richford,_New_York"
+        },
+        "employees": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "60000"
+        },
+        "populationTotal": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "1172"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Standard_Oil"
+        }
+      },
+      {
+        "boss": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/William_Rockefeller"
+        },
+        "birthPlace": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Richford,_New_York"
+        },
+        "employees": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "60000"
+        },
+        "populationTotal": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "1172"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Standard_Oil"
+        }
+      },
+      {
+        "boss": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Jabez_A._Bostwick"
+        },
+        "birthPlace": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Delhi,_New_York"
+        },
+        "employees": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "60000"
+        },
+        "populationTotal": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "5117"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Standard_Oil"
+        }
+      },
+      {
+        "boss": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Samuel_Andrews_(chemist)"
+        },
+        "birthPlace": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Oaksey"
+        },
+        "employees": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "60000"
+        },
+        "populationTotal": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "530"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Standard_Oil"
+        }
+      },
+      {
+        "boss": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Oprah_Winfrey"
+        },
+        "birthPlace": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Kosciusko,_Mississippi"
+        },
+        "employees": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "12554"
+        },
+        "populationTotal": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "7402"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Harpo_Productions"
+        }
+      },
+      {
+        "boss": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Mary_Kay_Ash"
+        },
+        "birthPlace": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Cypress,_Texas"
+        },
+        "employees": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "3000000"
+        },
+        "populationTotal": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "122803"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Mary_Kay"
+        }
+      },
+      {
+        "boss": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Paul_Marciano"
+        },
+        "birthPlace": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Debdou"
+        },
+        "employees": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "14600"
+        },
+        "populationTotal": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "4596"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Guess_(clothing)"
+        }
+      },
+      {
+        "boss": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Ken_Olsen"
+        },
+        "birthPlace": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Stratford,_Connecticut"
+        },
+        "employees": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "140000"
+        },
+        "populationTotal": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "52112"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Digital_Equipment_Corporation"
+        }
+      },
+      {
+        "boss": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Donald_Valle"
+        },
+        "birthPlace": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Lettomanoppello"
+        },
+        "employees": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "3600"
+        },
+        "populationTotal": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "3098"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Valle's_Steak_House"
+        }
+      },
+      {
+        "boss": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Tilman_J._Fertitta"
+        },
+        "birthPlace": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Galveston,_Texas"
+        },
+        "employees": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "60000"
+        },
+        "populationTotal": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "47743"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Landry's,_Inc."
+        }
+      },
+      {
+        "boss": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/John_Abizaid"
+        },
+        "birthPlace": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Coleville,_California"
+        },
+        "employees": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "13000"
+        },
+        "populationTotal": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "495"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/RPM_International"
+        }
+      },
+      {
+        "boss": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Tim_Michels"
+        },
+        "birthPlace": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Lomira,_Wisconsin"
+        },
+        "employees": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "5000"
+        },
+        "populationTotal": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "2430"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Michels_Corporation"
+        }
+      },
+      {
+        "boss": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Dean_Wooldridge"
+        },
+        "birthPlace": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Chickasha,_Oklahoma"
+        },
+        "employees": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "122258"
+        },
+        "populationTotal": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "16036"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/TRW_Inc."
+        }
+      },
+      {
+        "boss": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Kevin_Plank"
+        },
+        "birthPlace": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Kensington,_Maryland"
+        },
+        "employees": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "11000"
+        },
+        "populationTotal": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "2213"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Under_Armour"
+        }
+      },
+      {
+        "boss": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Ian_Read"
+        },
+        "birthPlace": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Forfar"
+        },
+        "employees": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "78300"
+        },
+        "populationTotal": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "14048"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Pfizer"
+        }
+      },
+      {
+        "boss": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Scott_Davis_(businessman)"
+        },
+        "birthPlace": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Medford,_Oregon"
+        },
+        "employees": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "444000"
+        },
+        "populationTotal": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "74907"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/United_Parcel_Service"
+        }
+      },
+      {
+        "boss": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Trevor_Fetter"
+        },
+        "birthPlace": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/La_Jolla"
+        },
+        "employees": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "130000"
+        },
+        "populationTotal": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "42808"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Tenet_Healthcare"
+        }
+      },
+      {
+        "boss": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Mark_Parker"
+        },
+        "birthPlace": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Poughkeepsie,_New_York"
+        },
+        "employees": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "62600"
+        },
+        "populationTotal": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "32736"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Nike,_Inc."
+        }
+      },
+      {
+        "boss": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Gregory_R._Page"
+        },
+        "birthPlace": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Bottineau,_North_Dakota"
+        },
+        "employees": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "153000"
+        },
+        "populationTotal": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "2211"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Cargill"
+        }
+      },
+      {
+        "boss": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Carl_Karcher"
+        },
+        "birthPlace": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Upper_Sandusky,_Ohio"
+        },
+        "employees": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "20200"
+        },
+        "populationTotal": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "6596"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/CKE_Restaurants"
+        }
+      },
+      {
+        "boss": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Alex_Molinaroli"
+        },
+        "birthPlace": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Parkersburg,_West_Virginia"
+        },
+        "employees": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "170000"
+        },
+        "populationTotal": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "31492"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Johnson_Controls"
+        }
+      },
+      {
+        "boss": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Steven_A._Kandarian"
+        },
+        "birthPlace": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/West_Hartford,_Connecticut"
+        },
+        "employees": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "66000"
+        },
+        "populationTotal": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "63268"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/MetLife"
+        }
+      },
+      {
+        "boss": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Tom_Monaghan"
+        },
+        "birthPlace": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Ann_Arbor,_Michigan"
+        },
+        "employees": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "260000"
+        },
+        "populationTotal": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "113934"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Domino's_Pizza"
+        }
+      },
+      {
+        "boss": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Johnnie_Bryan_Hunt"
+        },
+        "birthPlace": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Heber_Springs,_Arkansas"
+        },
+        "employees": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "19324"
+        },
+        "populationTotal": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "7165"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/J._B._Hunt"
+        }
+      },
+      {
+        "boss": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/B._Wayne_Hughes"
+        },
+        "birthPlace": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Gotebo,_Oklahoma"
+        },
+        "employees": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "5300"
+        },
+        "populationTotal": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "226"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Public_Storage"
+        }
+      },
+      {
+        "boss": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Irene_Rosenfeld"
+        },
+        "birthPlace": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Westbury,_New_York"
+        },
+        "employees": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "126000"
+        },
+        "populationTotal": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "15146"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Kraft_Foods_Inc"
+        }
+      }
+    ]
+  }
+}

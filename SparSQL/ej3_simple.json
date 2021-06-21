@@ -1,0 +1,119 @@
+{
+  "head": { "link": [], "vars": ["founder", "company"] },
+  "results": {
+    "distinct": false,
+    "ordered": true,
+    "bindings": [
+      {
+        "founder": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/William_Boeing"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Boeing"
+        }
+      },
+      {
+        "founder": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Clyde_Vernon_Cessna"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Cessna"
+        }
+      },
+      {
+        "founder": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Ed_Yost"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Raven_Industries"
+        }
+      },
+      {
+        "founder": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Haviland_H._Platt"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Platt-LePage_Aircraft_Company"
+        }
+      },
+      {
+        "founder": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Wynn_Laurence_LePage"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Platt-LePage_Aircraft_Company"
+        }
+      },
+      {
+        "founder": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Robert_L._Forward"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Tethers_Unlimited,_Inc."
+        }
+      },
+      {
+        "founder": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Robert_P._Hoyt"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Tethers_Unlimited,_Inc."
+        }
+      },
+      {
+        "founder": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Dick_Eipper"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Quicksilver_Manufacturing"
+        }
+      },
+      {
+        "founder": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Vannevar_Bush"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Raytheon"
+        }
+      },
+      {
+        "founder": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Michael_Stroukoff"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Stroukoff_Aircraft"
+        }
+      },
+      {
+        "founder": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Jose_Mariano_L\u00F3pez-Urdiales"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Zero2infinity"
+        }
+      }
+    ]
+  }
+}

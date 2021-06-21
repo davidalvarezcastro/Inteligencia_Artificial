@@ -1,0 +1,132 @@
+{
+  "head": {
+    "link": [],
+    "vars": ["boss", "birthPlace", "employees", "populationTotal", "company"]
+  },
+  "results": {
+    "distinct": false,
+    "ordered": true,
+    "bindings": [
+      {
+        "boss": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Jeffrey_R._Immelt"
+        },
+        "birthPlace": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Cincinnati"
+        },
+        "employees": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "305000"
+        },
+        "populationTotal": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "296943"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/General_Electric"
+        }
+      },
+      {
+        "boss": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Eric_Schmidt"
+        },
+        "birthPlace": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Falls_Church,_Virginia"
+        },
+        "employees": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "66575"
+        },
+        "populationTotal": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "13508"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Alphabet_Inc."
+        }
+      },
+      {
+        "boss": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Larry_Page"
+        },
+        "birthPlace": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/East_Lansing,_Michigan"
+        },
+        "employees": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "66575"
+        },
+        "populationTotal": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "48579"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Alphabet_Inc."
+        }
+      },
+      {
+        "boss": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Kenneth_Chenault"
+        },
+        "birthPlace": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Mineola,_New_York"
+        },
+        "employees": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "54000"
+        },
+        "populationTotal": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "18799"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/American_Express"
+        }
+      },
+      {
+        "boss": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Carl_Icahn"
+        },
+        "birthPlace": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Far_Rockaway,_Queens"
+        },
+        "employees": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "90807"
+        },
+        "populationTotal": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "value": "60035"
+        },
+        "company": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Icahn_Enterprises"
+        }
+      }
+    ]
+  }
+}
